@@ -1,1 +1,1 @@
-print("I HATE ALBANIANS")
+print("I LOVE ALBANIANS")
