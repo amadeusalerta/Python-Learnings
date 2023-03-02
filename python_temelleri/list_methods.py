@@ -11,5 +11,5 @@ letters=['a','j','h','l','u','s','x']
 # numbers.pop(1) #Remove numbers that you assigned an index number
 # numbers.remove(23) #Search number that we choose and deleting the number
 # numbers.sort #Sorts the list
-numbers.reverse #Reverses the list
+# numbers.reverse #Reverses the list
 print(numbers)
