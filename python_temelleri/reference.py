@@ -4,7 +4,7 @@
 # x=y
 # y=10
 # print(x,y)
-#Reference Types
+#Reference Types => Lists
 a=['apple','banana']
 b=['apple','banana']
 a=b
