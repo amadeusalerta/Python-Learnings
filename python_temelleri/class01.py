@@ -50,12 +50,13 @@ class Circle:
     #Class Object Attirbute
      pi=3.14
      def __init__(self,radius=1) :
+     
           
     #Methods
 
-    def perimeter_calculate(self,):
+     def perimeter_calculate(self,):
        return 2*self.pi+self.radius
-    def area_calculator(self):
+     def area_calculator(self):
         return self.pi*(self*radius**2)
 circle_01=Circle()
 circle_02=Circle(7)
