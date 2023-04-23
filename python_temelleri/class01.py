@@ -46,20 +46,20 @@
 # print(type(p1))
 # print(type(p2))
 
-class Circle:
-    #Class Object Attirbute
-     pi=3.14
-     def __init__(self,radius=1) :
+# class Circle:
+#     #Class Object Attirbute
+#      pi=3.14
+#      def __init__(self,radius=1) :
      
           
-    #Methods
+#     #Methods
 
-     def perimeter_calculate(self,):
-       return 2*self.pi+self.radius
-     def area_calculator(self):
-        return self.pi*(self*radius**2)
-circle_01=Circle()
-circle_02=Circle(7)
+#      def perimeter_calculate(self,):
+#        return 2*self.pi+self.radius
+#      def area_calculator(self):
+#         return self.pi*(self*radius**2)
+# circle_01=Circle()
+# circle_02=Circle(7)
 
-print('circle_01:Alan={circle_01.area_calculator()} Çevre={circle_01.perimeter_calculate}')
-print('circle_02:Alan={circle_02.area_calculator()} Çevre={circle_02.perimeter_calculate}')
+# print('circle_01:Alan={circle_01.area_calculator()} Çevre={circle_01.perimeter_calculate}')
+# print('circle_02:Alan={circle_02.area_calculator()} Çevre={circle_02.perimeter_calculate}')
