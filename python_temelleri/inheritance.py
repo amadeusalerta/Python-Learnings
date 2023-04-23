@@ -22,11 +22,21 @@ class Student(Person):
         self.StudentNumber=stu_number
         print('Student Created')
 
+class Teacher(Person):
+    def __init__(self, first_name, surname,branch):
+        super().__init__(first_name, surname,branch)
+        self.Branch=branch
+    
+    def who_am_ii(self):
+        print(f'I am a {self.Branch} teacher')
+
 p1=Person('Stella','Johnson')
 s1=Student('Jordan','Dawson',1521)
+t1=Teacher('Abraham','Clinton','Math')
 
 print(p1.FirstName+' '+p1.LastName)
 print(s1.FirstName+' '+s1.LastName+' '+str(s1.StudentNumber))
+
 
 p1.who_am_i()
 s1.who_am_i()
